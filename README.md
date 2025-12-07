@@ -24,10 +24,11 @@ application:
 -   👤 **Users**
 -   🏬 **Store (Orders)**
 
-It validates: - API functionality\
-- Response structure\
-- Status codes\
-- Error handling\
+It validates: 
+- API functionality
+- Response structure
+- Status codes
+- Error handling
 - Edge cases
 
 All test execution is recorded using **Allure**, generating detailed,
@@ -35,14 +36,14 @@ interactive reports.
 
 ## 🛠 Technologies Used
 
-  Tool                      Purpose
-  ------------------------- -------------------------------
-  **Java 13**               Programming language
-  **Apache Maven 3.9.11**   Build & dependency management
-  **IntelliJ IDEA**         IDE
-  **Rest Assured**          API test automation
-  **TestNG**                Test framework
-  **Allure Reports**        Test reporting
+  Tool                     |Purpose
+  -------------------------| -------------------------------
+  **Java 13**              | Programming language
+  **Apache Maven 3.9.11**  | Build & dependency management
+  **IntelliJ IDEA**        | IDE
+  **Rest Assured**         | API test automation
+  **TestNG**               | Test framework
+  **Allure Reports**       | Test reporting
 
 ## 📁 Project Structure
 
@@ -88,18 +89,18 @@ interactive reports.
 -   Get order by ID --- `GET /store/order/{orderId}`
 -   Delete order --- `DELETE /store/order/{orderId}`
 
-## ✅ Test Coverage Includes
+## ✅ Test Coverage Includes:
 
--   Response status verification\
--   Schema & body validation\
--   Error handling\
+-   Response status verification
+-   Schema & body validation
+-   Error handling
 -   Negative tests (invalid input, empty requests)
 
 ## ⚙️ Setup and Execution
 
 ### 1️⃣ Clone the Repository
 
-    git clone https://github.com/SanjanaVarma12/petstore-api-automation-rest-assured.git
+    git clone https://github.com/BesharaSafwat/PetStoreAPI_Automation_Project_RestAssured.git
 
 ### 2️⃣ Open in Your IDE
 
@@ -121,4 +122,4 @@ https://allurereport.org/docs/install/
 
 ### Sample Report
 
-![Allure Report](insert-image-url-here)
+![Allure Report](Allure_Screenshot.jpg)
